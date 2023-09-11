@@ -12,7 +12,7 @@ for (let i = 0; i < 3; i++) {
             arreglo[i] = numero;
             esNumero = true;
         } else {
-            console.log("Lo ingresado no es un numero")
+            alert("El dato ingresado no es un numero o es un espacio vacio")
             esNumero = false;
         }
 
