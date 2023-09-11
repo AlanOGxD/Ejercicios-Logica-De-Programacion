@@ -39,14 +39,14 @@ Grados Kelvin: 318.15
 let celsius;
 
 do {
-    numero = prompt("Ingresa la temperatura en grados celsius: ");
-    if (!isNaN(numero) && numero != null && numero != "") {
-        celsius = numero;
-        valido = false;
-    } else {
-        alert("El dato ingresado no es un numero o valor valido.")
-        valido = true;
-    }
+  numero = prompt("Ingresa la temperatura en grados celsius: ");
+  if (!isNaN(numero) && numero != null && numero != "") {
+    celsius = numero;
+    valido = false;
+  } else {
+    alert("El dato ingresado no es un numero o valor valido.")
+    valido = true;
+  }
 
 
 } while (valido);
