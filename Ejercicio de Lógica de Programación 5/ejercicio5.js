@@ -3,11 +3,10 @@ console.log(numeroSecreto);
 
 let numeroNoAdivinado = true;
 let numerosIngresados = new Array();
-alert("ya esta jalando");
 
 do {
     //Prompt para ingresar los numeros
-    numero = prompt("Intenta adivinar el numero secreto: ");
+    numero = parseInt(prompt("Intenta adivinar el numero secreto: "));
     //Condicion para comprobar que sea numero, no este vacio y tampoco sea null
     if (!isNaN(numero) && numero != null && numero != "") {
         numerosIngresados.push(numero);
